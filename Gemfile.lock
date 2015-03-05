@@ -49,6 +49,8 @@ GEM
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.2.0.2)
       sass (~> 3.2)
+    bootstrap-will_paginate (0.0.10)
+      will_paginate
     builder (3.2.2)
     byebug (3.4.0)
       columnize (~> 0.8)
@@ -69,7 +71,7 @@ GEM
     debugger-linecache (1.2.0)
     erubis (2.7.0)
     execjs (2.4.0)
-    faker (1.2.0)
+    faker (1.4.2)
       i18n (~> 0.5)
     ffi (1.9.6)
     formatador (0.2.5)
@@ -220,9 +222,10 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootstrap-sass (= 3.2.0.2)
+  bootstrap-will_paginate (= 0.0.10)
   byebug (= 3.4.0)
   coffee-rails (= 4.1.0)
-  faker (= 1.2.0)
+  faker (= 1.4.2)
   guard-minitest (= 2.3.1)
   jbuilder (= 2.2.3)
   jquery-rails (= 4.0.3)
@@ -239,4 +242,4 @@ DEPENDENCIES
   turbolinks (= 2.3.0)
   uglifier (= 2.5.3)
   web-console (= 2.0.0.beta3)
-  will_paginate (~> 3.0.4)
+  will_paginate (= 3.0.7)
