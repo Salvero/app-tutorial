@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'account_activations/edit'
+  # get 'account_activation', "account_activations#edit", :as => :edit_account_activation
 
   get 'sessions/new'
 
