@@ -1,1 +1,15 @@
-# Empty
+one:
+  follower: ken
+  followed: lana
+  
+two:  
+  follower: ken
+  followed: mallory
+  
+three:
+  follower: lana  
+  followed: ken
+
+four:
+  follower: archer
+  followed: ken
