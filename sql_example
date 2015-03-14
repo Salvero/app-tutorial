@@ -1,0 +1,4 @@
+SELECT * FROM microposts
+WHERE user_id IN (SELECT followed_id FROM relationships
+                  WHERE follower_id = 1) 
+      OR user_id = 1
